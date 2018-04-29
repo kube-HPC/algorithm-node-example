@@ -1,9 +1,6 @@
-/*
- * Created by nassi on 01/11/15.
- */
-
 var Components = {
-    MAIN: 'Main'
+    MAIN: 'Main',
+    SOCKET: 'Socket'
 };
 
 module.exports = Components;
