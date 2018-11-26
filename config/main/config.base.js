@@ -4,7 +4,7 @@ var config = module.exports = {};
 
 config.serviceName = packageJson.name;
 
-config.adapter = 'ws';
+config.adapter = 'socketio';
 
 config.socket = {
     port: process.env.WORKER_SOCKET_PORT || 3000,
