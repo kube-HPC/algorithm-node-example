@@ -1,5 +1,5 @@
 
-FROM hkube/base-node:v1.0.0
+FROM hkube/base-node:v1.1.1
 LABEL maintainer="maty21@gmail.com"
 RUN mkdir /hkube
 COPY . /hkube/alg-example
